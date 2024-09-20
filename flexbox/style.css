@@ -1,0 +1,41 @@
+body{
+    text-align: center;
+}
+div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 3px solid black;
+}
+#container
+{
+    height: 500px;
+    width: 900px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: start;
+    align-content: flex-end;
+
+
+}
+#box1{
+    background-color: aqua;
+    flex-grow: 1.5;
+}
+#box2{
+    background-color: pink;
+    flex-shrink: 0.005;
+}
+#box3{
+    background-color:orange;
+    flex-grow: 1.5;
+
+}
+#box4{
+    background-color:yellow;
+}#box5{
+    background-color: wheat;
+}#box6{
+    background-color: magenta;
+}
